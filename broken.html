@@ -1,0 +1,38 @@
+ <!-- BROKEN HTML EXAMPLE -->
+ 
+ <html>
+<head>
+</head>
+<body>
+    <div>
+        <h1>Main Page Heading</h1>
+        <h3>Skipped Heading Level (H3 directly after H1)</h3>
+    </div>
+
+    <!-- Missing closing tag on paragraph and incorrect nesting -->
+    <div>
+        <p>This is a paragraph with a missing closing tag.
+        <b>Bold text containing a <i>italic text block</b ></i>
+    </div>
+
+    <!-- Duplicate IDs -->
+    <div id="content-box">First content box</div>
+    <div id="content-box">Duplicate ID content box</div>
+
+    <!-- Meaningful image with missing alt text -->
+    <img src="company-logo.png">
+
+    <!-- Broken relative links -->
+    <a href="nonexistent-page.html">About Us</a>
+    <a href="../missing-folder/contact.html">Contact Us</a>
+
+    <!-- Incorrect or missing form-label associations -->
+    <form>
+        <label>Username</label>
+        <input type="text" id="username" name="username">
+        
+        <label for="wrong-id">Email Address</label>
+        <input type="email" id="email" name="email">
+    </form>
+</body>
+</html>
